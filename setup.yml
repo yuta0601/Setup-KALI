@@ -2,7 +2,7 @@
 - name: kali linux setup
   hosts: localhost
   connection: local
-  # sudo実行有無（しないのでno）
+  # sudo実行有無（run with root）
   become: yes
   # 対象サーバの情報収集（しないのでno）
   gather_facts: no
